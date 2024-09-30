@@ -1,0 +1,18 @@
+Levente! Hozz létre egy mappát, mondjuk registration néven, és 
+nyisd meg  a VSC-ben.
+azon belül hozz létre egy public nevű mappát 
+és abban helyezz el egy index.html fájlt.
+
+Indítsd el a terminalt, majd telepítsd a következőket:
+npm init -y
+npm install express mysql body-parser
+
+package-lock.json fájlt egészítsd ki:
+"main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+
+  futtatás: npm start
+  ha ezzel nem indul akkor a szokásos node app.js és futni fog a 
+  3000-es porton
