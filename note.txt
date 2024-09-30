@@ -16,3 +16,6 @@ package-lock.json fájlt egészítsd ki:
   futtatás: npm start
   ha ezzel nem indul akkor a szokásos node app.js és futni fog a 
   3000-es porton
+
+Ami még fontos indítsd el a xampp-ot, és hozz létre egy registration nevű adatbázist, importáld be a csatolt sql fájlt. 
+A jelszónál inkább módosítsd le sha1-re, ami nem a beírt jelszót adja vissza.
